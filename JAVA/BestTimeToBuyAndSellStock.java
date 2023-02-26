@@ -28,7 +28,7 @@ public class BestTimeToBuyAndSellStock {
     public static void main(String[] args) {
         int arr[] = { 7, 1, 5, 3, 6, 4 };
         int arr2[] = { 7, 1, 5, 10, 6, 4 };
-        int arr3[] = { 7, 1, 15, 3, 6, 4 };
+        int arr3[] = { 7, 1, 15, 3, 6, 2 };
         // BestTimeToBuyAndSellStock obj = new BestTimeToBuyAndSellStock();
         System.out.println(maxProfit(arr));
         System.out.println(maxProfit(arr2));
