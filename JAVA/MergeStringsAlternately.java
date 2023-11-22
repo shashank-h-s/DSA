@@ -10,7 +10,7 @@ public class MergeStringsAlternately {
         System.out.println(mergingString(word1, word2));
     }
 
-    public static StringBuilder mergingString(String word1, String word2) {
+    public static String mergingString(String word1, String word2) {
         StringBuilder result = new StringBuilder();
         int i = 0;
         while (i < word1.length() || i < word2.length()) {
@@ -26,8 +26,7 @@ public class MergeStringsAlternately {
             }
             i++;
         }
-
-        return result;
+        return result.toString();
     }
 
 }
