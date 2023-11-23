@@ -15,7 +15,6 @@ public class CheckPallindromeNumber {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println(pallindromeNumber(1001));
 	}
 }
