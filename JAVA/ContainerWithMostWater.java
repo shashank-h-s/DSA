@@ -7,15 +7,14 @@ public class ContainerWithMostWater {
     		 P1 =prices[i];
     		 P2 = prices[j];
     		 if(P2<P1) {
-    			int temp = P2 * (j-i);
-    			if(result<temp) {
-    				result = temp;
+    			if(result<(P2 * (j-i))) {
+    				result = P2 * (j-i);
     			}
     			 j--;
     		 }else {
     			 int temp = P1 *(j-i);
-    			 if(result<temp) {
-     				result = temp;
+    			 if(result < (P1 *(j-i))) {
+     				result = P1 *(j-i);
      			}
     			 i++;
     		 }
